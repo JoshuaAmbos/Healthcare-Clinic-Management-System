@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Patients') }}
+            {{ __('Edit Patient') }}
         </h2>
     </x-slot>
 
@@ -11,7 +11,7 @@
                 <div class="p-6 text-gray-900">
 
                     <div class="mb-6 border-b border-gray-200 pb-4">
-                        <h2 class="text-2xl font-semibold text-gray-800">Edit Patient: <span
+                        <h2 class="text-2xl font-semibold text-gray-800"><span
                                 style="color: #4f46e5">{{ $patient->first_name }}
                                 {{ $patient->middle_name }}
                                 {{ $patient->last_name }}</span>
