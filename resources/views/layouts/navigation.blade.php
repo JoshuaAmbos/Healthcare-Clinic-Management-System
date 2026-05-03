@@ -20,7 +20,7 @@
                         {{ __('Patients') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('doctors.*')">
+                    <x-nav-link :href="route('doctors.index')" :active="request()->routeIs('doctors.*')">
                         {{ __('Doctors') }}
                     </x-nav-link>
 

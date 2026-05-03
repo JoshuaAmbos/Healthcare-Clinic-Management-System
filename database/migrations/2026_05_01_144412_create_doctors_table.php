@@ -36,7 +36,7 @@ return new class extends Migration
             $table->string('bio');
 
             // assigned clinic
-            $table->string('assigned_clinic'    );
+            $table->string('assigned_clinic');
 
             $table->timestamps();
         });

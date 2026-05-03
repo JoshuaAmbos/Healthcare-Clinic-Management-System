@@ -8,7 +8,6 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <!-- Main Grid Container -->
-            <!-- We use grid-cols-1 for mobile and md:grid-cols-4 for desktop -->
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
 
                 {{-- Total Patients --}}
@@ -36,7 +35,7 @@
                     </div>
                 </div>
 
-                {{-- Card 2 --}}
+                {{-- Total Doctors --}}
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg border border-gray-200">
                     <div class="p-6">
                         <div class="flex items-center">
@@ -48,10 +47,10 @@
                                 </svg>
                             </div>
                             <div class="ml-5">
-                                <p class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total Patients</p>
+                                <p class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total Doctors</p>
                                 <div class="flex items-baseline">
                                     <h2 class="text-3xl font-semibold text-gray-900">
-                                        {{ number_format($number_of_patients) }}
+                                        {{ number_format($number_of_doctors) }}
                                     </h2>
                                 </div>
                             </div>

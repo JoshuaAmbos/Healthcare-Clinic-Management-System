@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PatientController;
+use App\Http\Controllers\DoctorController;
+
 use App\Http\Controllers\DashboardController;
 
 
@@ -22,7 +24,7 @@ Route::middleware('auth')->group(function () {
 Route::resource('patients', PatientController::class)->middleware(['auth', 'verified']);
 
 // doctors
-
+Route::resource('doctors', DoctorController::class)->middleware(['auth', 'verified']);
 //
 
 //

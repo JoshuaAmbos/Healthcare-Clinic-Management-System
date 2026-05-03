@@ -152,14 +152,9 @@
                                 Update Patient Record
                             </button>
                         </div>
-
-
+                    </form>
                 </div>
-                </form>
-
             </div>
         </div>
     </div>
-    </div>
-
 </x-app-layout>
