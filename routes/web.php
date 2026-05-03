@@ -21,6 +21,14 @@ Route::middleware('auth')->group(function () {
 // patients
 Route::resource('patients', PatientController::class);
 
+// doctors
+
+//
+
+//
+
+//
+
 });
 
 require __DIR__.'/auth.php';

@@ -16,14 +16,14 @@ return new class extends Migration
 
             // patient info
             $table->string('first_name');
-            $table->string('middle_name')->nullable();
+            $table->string('middle_name')->default('None')->nullable();
             $table->string('last_name');
 
             // medical history
-            $table->string('allergy')->nullable();
-            $table->string('chronic_conditions')->nullable();
-            $table->string('past_surgeries')->nullable();
-            $table->string('family_medical_history')->nullable();
+            $table->string('allergy')->default('None')->nullable();
+            $table->string('chronic_conditions')->default('None')->nullable();
+            $table->string('past_surgeries')->default('None')->nullable();
+            $table->string('family_medical_history')->default('None')->nullable();
             $table->string('blood_group');
 
             // emergency contacts
